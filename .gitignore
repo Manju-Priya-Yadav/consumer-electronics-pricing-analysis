@@ -1,0 +1,6 @@
+data/
+gen/
+.Rproj.user/
+.Rhistory
+.RData
+.DS_Store
