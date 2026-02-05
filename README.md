@@ -31,7 +31,7 @@ The dashboard is designed from a **retail pricing perspective**, to evaluate com
 - Maximum price spread
 - Brand-level filtering
 
-![Price Overview](pictures/dashboard_page_1.png)
+![Price Overview](pictures/dashboard_page_1.PNG)
 
 
 
@@ -40,7 +40,7 @@ The dashboard is designed from a **retail pricing perspective**, to evaluate com
 - Relationship between price level and price volatility by brand
 - Interactive brand slicer
 
-![Price Volatility](pictures/dashboard_page_2.png)
+![Price Volatility](pictures/dashboard_page_2.PNG)
 
 
 
