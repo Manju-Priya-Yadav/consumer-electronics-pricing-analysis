@@ -1,5 +1,5 @@
 # Pricing Benchmark & Price Volatility Analysis (Power BI)
-<<<<<<< HEAD
+
 =======
 
 ## Project Overview
@@ -100,4 +100,3 @@ The dashboard is designed from a **retail pricing perspective**, to evaluate com
 - Include competitor-level comparisons
 - Enhance outlier detection for extreme price spreads
 =======
->>>>>>> abb03f73dfa98827f3bc613287b5467415ef876e
