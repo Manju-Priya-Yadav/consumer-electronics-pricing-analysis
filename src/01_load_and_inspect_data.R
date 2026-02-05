@@ -1,7 +1,10 @@
+# pre-requisites
+
 library(readr)
 library(dplyr)
 library(stringr)
 
+#### (A) INPUT
 # ------------------------------------------------------------------
 # 1. Load raw data
 # ------------------------------------------------------------------
@@ -17,6 +20,8 @@ glimpse(raw_data)
 # Check column names
 names(raw_data)
 
+
+#### (B) TRANSFORMATION 
 # ------------------------------------------------------------------
 # 2. Select pricing-relevant columns
 # ------------------------------------------------------------------
@@ -74,3 +79,21 @@ pricing_checks <- pricing_data %>%
 
 print(pricing_checks)
 
+pricing_data <- pricing_data %>%
+  mutate(
+    flag_missing_category = is.na(category_main),
+    flag_missing_merchant = is.na(prices.merchant),
+    flag_extreme_spread = price_spread_pct > 1
+  )
+
+pricing_data
+
+
+#### (C) OUTPUT
+
+dir.create("gen/output", recursive = TRUE, showWarnings = FALSE)
+
+write_csv(
+  pricing_data,
+  "gen/output/pricing_benchmark_input.csv"
+)
