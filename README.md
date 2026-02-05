@@ -1,11 +1,10 @@
 # Pricing Benchmark & Price Volatility Analysis (Power BI)
 
-=======
 
 ## Project Overview
 This project analyzes product pricing data to understand **price levels**, **price dispersion**, and **price volatility** across brands and product categories.
 
-The dashboard is designed from a **retail pricing perspective**, to evaluate competitive pricing consistency and brand positioning.
+The dashboard is designed from a **retail pricing perspective**, to evaluate competitive pricing consistency.
 
 ---
 
@@ -34,7 +33,7 @@ The dashboard is designed from a **retail pricing perspective**, to evaluate com
 
 ![Price Overview](pictures/dashboard_page1.png)
 
----
+
 
 ### Page 2 – Price Volatility Analysis
 - Price spread (%) by category
@@ -43,60 +42,9 @@ The dashboard is designed from a **retail pricing perspective**, to evaluate com
 
 ![Price Volatility](pictures/dashboard_page1.png)
 
----
+
 
 ## Future Improvements / work in progress
 - Add time-based price trend analysis
 - Include competitor-level comparisons
 - Enhance outlier detection for extreme price spreads
->>>>>>> abb03f73dfa98827f3bc613287b5467415ef876e
-
-## Project Overview
-This project analyzes product pricing data to understand **price levels**, **price dispersion**, and **price volatility** across brands and product categories.
-
-<<<<<<< HEAD
-The dashboard is designed from a **retail pricing perspective**, to evaluate competitive pricing consistency and brand positioning.
-
----
-
-## Business Questions Addressed
-- Which product categories show the highest price volatility?
-- How does price dispersion differ across brands?
-- How do sale vs non-sale items affect reference pricing?
-
----
-
-## Tools & Skills Used
-- **Power BI**
-- **DAX (Measures & Calculations)**
-- Data modeling & aggregation
-- Interactive dashboards
-- Business-oriented data storytelling
-
----
-
-## Dashboard Pages
-
-### Page 1 – Price Level Overview
-- Average reference price by category
-- Maximum price spread
-- Brand-level filtering
-
-![Price Overview](pictures/dashboard_page1.png)
-
----
-
-### Page 2 – Price Volatility Analysis
-- Price spread (%) by category
-- Relationship between price level and price volatility by brand
-- Interactive brand slicer
-
-![Price Volatility](pictures/dashboard_page1.png)
-
----
-
-## Future Improvements / work in progress
-- Add time-based price trend analysis
-- Include competitor-level comparisons
-- Enhance outlier detection for extreme price spreads
-=======
