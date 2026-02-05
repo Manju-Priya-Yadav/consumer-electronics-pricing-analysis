@@ -1,0 +1,11 @@
+# Electronics Retail Pricing Benchmark 
+
+
+## Objective
+Prepare and validate product-level pricing data to support price benchmarking, category-level analysis, and pricing governance dashboards.
+
+## Tools
+- R (data preparation & pricing metrics)
+- Power BI (pricing dashboards – next step)
+- GitHub (version control)
+
